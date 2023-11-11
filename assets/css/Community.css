@@ -172,7 +172,7 @@
         padding-left: 5%;
         color: rgb(42, 42, 41);
         font-weight: bold;
-        font-size: 24px !important;
+        font-size: 28px !important;
         margin-left: 7%;
         margin-top: 2%;
     }
@@ -181,15 +181,15 @@
         text-align: left;
         font-family: 'Poppins' !important;
         color: rgb(42, 42, 41);
-        font-size: 12px;
+        font-size: 16px;
         font-weight: bold;
-        margin: 2% 12% 1% 12%;
+        margin: 0% 12% 1% 12%;
     }
     
     .Impact_Heading_right {
         color: white;
         font-weight: bold;
-        font-size: 24px !important;
+        font-size: 28px !important;
         margin-top: 3%;
     }
     
@@ -197,8 +197,12 @@
         text-align: left;
         font-family: 'Poppins' !important;
         color: white;
-        font-size: 12px;
+        font-size: 16px;
+        margin-top:0px;
         margin-bottom: 0px;
+    }
+    .Impact_div{
+        margin-right: 3% !important;
     }
 }
 
@@ -241,6 +245,11 @@
     margin-top: 15vh;
 }
 
+.Impact_div{
+    width: 85%;
+    float: left;
+    margin-right: 10%;
+}
 /* .Impact_Title {
     display: flex;
     align-items: center;
