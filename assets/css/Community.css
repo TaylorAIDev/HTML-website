@@ -713,13 +713,11 @@
 @media(max-width:375px) {
     .button_circle {
         width: 100px !important;
-        height: 35px !important;
         font-size: 8px !important;
     }
 
     .input_circle {
         width: 180px !important;
-        height: 35px !important;
         font-size: 10px !important;
     }
 }
