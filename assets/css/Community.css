@@ -55,9 +55,17 @@
     justify-content: center;
 }
 
+.video_heading{
+    font-family: 'Poppins'; 
+    font-size:55px;
+}
+
 @media(max-width: 768px) {
     .svg-container {
         width: 30% !important;
+    }
+    .video_heading{
+        font-size: 30px !important;
     }
 }
 
@@ -119,13 +127,13 @@
 @media(max-width: 1150px) and (min-width:654px){
 
     /* For mobile phones: */
-    [class*="col-"] {
+    /* [class*="col-"] {
         width: 100%;
     }
 
     .d-flex {
-        flex-direction: column;
-    }
+        flex-direction: row;
+    } */
 
     .Impact_Heading_left {
         padding-left: 5%;
@@ -160,7 +168,7 @@
     }
 
     .Impact_Title {
-        font-size: 40px !important;
+        font-size: 30px !important;
     }
     .vc_custom_heading_wrap {
         margin-top: 0px !important;
@@ -250,6 +258,7 @@
     float: left;
     margin-right: 10%;
 }
+
 /* .Impact_Title {
     display: flex;
     align-items: center;
@@ -333,11 +342,28 @@
     text-align: center;
     height: 70%;
     margin-bottom: 20px;
-    margin-top: 0;
+    margin-top: 20px;
+}
+
+.Values_headling{
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+@media(max-width:900px) {
+    .Values_headling{
+        font-size: 32px;
+    }
+}
+
+@media(max-width:500px) {
+    .Values_headling{
+        font-size: 32px;
+    }
 }
 
 .Values_heading_position {
-    height: 25%;
+    height: 25% !important;
     background-color: rgb(253, 109, 72);
 }
 
@@ -626,6 +652,9 @@
     .RoadMap_title {
         font-size: 32px;
     }
+    .RoadMap_para{
+        padding: 0px !important;
+    }
 }
 
 .RoadMap_para {
@@ -710,15 +739,18 @@
     }
 }
 
-@media(max-width:375px) {
+@media(max-width:450px) {
     .button_circle {
         width: 100px !important;
-        font-size: 8px !important;
+        height: 50px !important;
+        font-size: 12px !important;
+        padding: 0px !important;
     }
 
     .input_circle {
         width: 180px !important;
-        font-size: 10px !important;
+        height: 50px !important;
+        font-size: 12px !important;
     }
 }
 
