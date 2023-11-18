@@ -57,7 +57,7 @@
 
 .video_heading{
     font-family: 'Poppins'; 
-    font-size:55px;
+    font-size:55px !important;
 }
 
 @media(max-width: 768px) {
