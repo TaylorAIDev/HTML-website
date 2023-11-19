@@ -65,16 +65,16 @@ html {
   position: relative;
   margin: 20px;
   max-width: 100%;
-  width: 1150px;
+  width: 78%;
 }
-@media(max-width:1620px){
+@media(max-width:1000px){
   .progress-container {
-    width: 1050px;
+    width: 85% !important;
   }
 }
 @media(max-width:1220px){
   .progress-container {
-    width: 850px;
+    width: 78%;
   }
 }
 

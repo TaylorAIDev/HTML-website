@@ -943,7 +943,7 @@ h2,
 .h2 {
     font-size: 29px;
     line-height: 1.2;
-    margin: 27px 0 0;
+    margin: 0px 0 0;
 }
 
 h3,
@@ -4109,7 +4109,7 @@ body.compose-mode .main-container .uncode-scroll-visible.add-zoomout .t-backgrou
     .col-lg-10,
     .col-lg-11,
     .col-lg-12 {
-        display: table-cell;
+        /* display: table-cell; */
         height: 100%;
     }
 

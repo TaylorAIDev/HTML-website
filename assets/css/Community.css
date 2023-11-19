@@ -60,6 +60,15 @@
     font-size:55px !important;
 }
 
+@media(max-width: 1000px) {
+    .svg-container {
+        width: 30% !important;
+    }
+    .video_heading{
+        font-size: 44px !important;
+    }
+}
+
 @media(max-width: 768px) {
     .svg-container {
         width: 30% !important;
@@ -122,8 +131,13 @@
     .vc_custom_heading_wrap {
         margin-top: 0px !important;
     }
+    .video_button{
+        margin-top: 0px !important;
+    }
 }
-
+.video_button{
+    margin-top: 0px !important;
+}
 @media(max-width: 1150px) and (min-width:654px){
 
     /* For mobile phones: */
@@ -169,6 +183,7 @@
 
     .Impact_Title {
         font-size: 30px !important;
+        margin:0px !important
     }
     .vc_custom_heading_wrap {
         margin-top: 0px !important;
@@ -259,7 +274,7 @@
     margin-right: 10%;
 }
 
-/* .Impact_Title {
+.Impact_Title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -272,12 +287,8 @@
     position: relative;
     height: 20%;
     padding: 0 40px 0 40px;
-} */
-
-.Impact_Title {
+    margin-top: 10%;
     letter-spacing: 2px;
-    font-size: 55px;
-    font-family: 'Poppins';
 }
 
 .Impact_float_left {
@@ -350,9 +361,16 @@
     font-size: 48px;
 }
 
-@media(max-width:900px) {
+@media(min-width:500px) and (max-width:1000px) {
     .Values_headling{
-        font-size: 32px;
+        font-size: 32px !important;
+    }
+    .Values_headling{
+        font-size: 24px;
+    }
+    .Values_that_drive_our_community{
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
     }
 }
 
@@ -363,12 +381,11 @@
 }
 
 .Values_heading_position {
-    height: 25% !important;
     background-color: rgb(253, 109, 72);
 }
 
 .Values_position {
-    height: 75%;
+    height:80%;
     display: flex;
     justify-content: center;
 }
@@ -388,22 +405,6 @@
     margin: 0;
 }
 
-.Love {
-    width: 20%;
-    background-color: rgb(249, 10, 72);
-    height: 100%;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.Love_Image {
-    margin: 0;
-    height: 80%;
-    top: 0;
-    transition: transform 0.3s;
-}
-
 .Text {
     height: 20%;
     display: none;
@@ -418,6 +419,22 @@
     font-size: 16px;
     margin-left: 2px;
     margin-right: 2px;
+}
+
+.Love {
+    width: 20%;
+    background-color: rgb(249, 10, 72);
+    height: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.Love_Image {
+    margin: 0;
+    height: 80%;
+    top: 0;
+    transition: transform 0.3s;
 }
 
 .Love:hover .Love_Image {
@@ -554,6 +571,46 @@
     align-items: center;
 }
 
+@media(max-width:1000px){
+    .Love_Image {
+        background-image: url('../slide3/Love.png');
+        background-size: cover;
+        margin: 0;
+    }
+    .Inclusion_Image {
+        background-image: url('../slide3/Inclusion.png');
+        background-size: cover;
+        margin: 0;
+    }
+    .Trust_Image {
+        background-image: url('../slide3/Trust.png');
+        background-size: cover;
+        margin: 0;
+    }
+    .Connection_Image {
+        background-image: url('../slide3/Connection.png');
+        background-size: cover;
+        margin: 0;
+    }
+    .Fun_Image {
+        background-image: url('../slide3/Fun.png');
+        background-size: cover;
+        margin: 0;
+    }
+    .Trust .Text {
+        display: initial;
+        color: black;
+        display: flex;
+        align-items: center;
+    }
+    .Text {
+        display: inline;
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
 @media(max-width:800px) {
     .Values_heading_position {
         height: 250px;
@@ -648,12 +705,21 @@
     font-weight: bolder;
 }
 
-@media(max-width:768px) {
+.RoadMap_subtitle {
+    color: black;
+    font-size:20px;
+    font-weight: bolder;
+}
+
+@media(max-width:1000px) {
     .RoadMap_title {
         font-size: 32px;
     }
+    .RoadMap_subtitle{
+        font-size: 14px !important;
+    }
     .RoadMap_para{
-        padding: 0px !important;
+        padding: 10px !important;
     }
 }
 
@@ -705,12 +771,14 @@
 @media(max-width:1086px) {
     .button_circle {
         width: 150px !important;
-        /* height: 50px !important; */
+        height: 50px !important;
+        font-size: 9px !important;
     }
 
     .input_circle {
-        width: 450px !important;
-        /* height: 50px !important; */
+        width: 320px !important;
+        font-size: 14px !important;
+        height: 50px !important;
     }
 }
 
@@ -772,7 +840,7 @@
     left: -5%;
     width: 250px;
     height: 60px;
-    font-size: 12px !important;
+    font-size: 12px;
     text-align: center;
     align-items: center;
     color: white;
@@ -897,6 +965,12 @@
 
     .Join_us {
         font-size: 24px;
+    }
+}
+
+@media(max-width:1000px){
+    .Join_us {
+        font-size: 24px !important;
     }
 }
 
