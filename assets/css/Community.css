@@ -608,6 +608,21 @@
         display: flex;
         align-items: center;
     }
+    .Love:hover .Love_Image {
+        transform: scale(1);
+    }
+    .Inclusion:hover .Inclusion_Image {
+        transform: scale(1);
+    }
+    .Trust:hover .Trust_Image {
+        transform: scale(1);
+    }
+    .Connection:hover .Connection_Image {
+        transform: scale(1);
+    }
+    .Fun:hover .Fun_Image {
+        transform: scale(1);
+    }
     
 }
 
