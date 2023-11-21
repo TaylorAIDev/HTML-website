@@ -30,7 +30,7 @@ html.fp-enabled.touch {
 .fp-auto-height.fp-section,
 .fp-auto-height .fp-slide,
 .fp-auto-height .fp-tableCell {
-    height: auto !important
+    /* height: auto !important */
 }
 
 .fp-responsive .fp-auto-height-responsive.fp-section,
