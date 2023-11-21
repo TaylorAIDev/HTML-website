@@ -385,7 +385,7 @@
 }
 
 .Values_position {
-    height:75%;
+    height:80%;
     display: flex;
     justify-content: center;
 }
@@ -432,7 +432,7 @@
 
 .Love_Image {
     margin: 0;
-    height: 80%;
+    height: 75%;
     top: 0;
     transition: transform 0.3s;
 }
@@ -447,7 +447,7 @@
 .Love:hover .Text {
     display: inline;
     display: flex;
-    align-items: center;
+    align-items: center !important;
 }
 
 .Inclusion {
@@ -460,7 +460,7 @@
 
 .Inclusion_Image {
     margin: 0;
-    height: 80%;
+    height: 75%;
     top: 0;
     transition: transform 0.3s;
 }
@@ -488,7 +488,7 @@
 
 .Trust_Image {
     margin: 0;
-    height: 80%;
+    height: 75%;
     top: 0;
     transition: transform 0.3s;
 }
@@ -525,7 +525,7 @@
 
 .Connection_Image {
     margin: 0;
-    height: 80%;
+    height: 75%;
     top: 0;
     transition: transform 0.3s;
 }
@@ -553,7 +553,7 @@
 
 .Fun_Image {
     margin: 0;
-    height: 80%;
+    height: 75%;
     top: 0;
     transition: transform 0.3s;
 }

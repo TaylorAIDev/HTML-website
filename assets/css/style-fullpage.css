@@ -36,7 +36,7 @@ html.fp-enabled.touch {
 .fp-responsive .fp-auto-height-responsive.fp-section,
 .fp-responsive .fp-auto-height-responsive .fp-slide,
 .fp-responsive .fp-auto-height-responsive .fp-tableCell {
-    height: auto !important
+    /* height: 100%; */
 }
 
 @keyframes opacityout {

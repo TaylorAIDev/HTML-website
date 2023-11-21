@@ -8,7 +8,7 @@ body {
     margin: 0;
 }
 
-article,
+/* article,
 aside,
 details,
 figcaption,
@@ -21,7 +21,7 @@ nav,
 section,
 summary {
     display: block;
-}
+} */
 
 audio,
 canvas,
