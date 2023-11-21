@@ -447,7 +447,7 @@
 .Love:hover .Text {
     display: inline;
     display: flex;
-    align-items: center !important;
+    align-items: center;
 }
 
 .Inclusion {
