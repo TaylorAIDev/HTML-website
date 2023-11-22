@@ -1,0 +1,53 @@
+.style-color-jevc-bg {
+    background-color: #000;
+}
+
+.style-color-prif-bg {
+    background-color: #303133
+}
+
+.style-color-xsdn-bg {
+    background-color: #fff
+}
+
+.btn-accent {
+    color: #ffffff !important;
+    background-color: rgb(243, 109, 82) !important;
+    border-color: rgb(243, 109, 82) !important
+}
+.btn-accent:hover{
+    color:rgb(243, 109, 82) !important;
+    background-color: white !important;
+    border-color: white !important;
+}
+
+.headings-style,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading-text>p,
+.tmb .t-entry .t-entry-cat,
+.tmb .t-entry .t-entry-title,
+.tmb .t-entry .t-entry-table-typography,
+.vc_pie_chart .vc_pie_chart_value,
+ul.dwls_search_results .daves-wordpress-live-search_title .search-title {
+    letter-spacing: 0em;
+    font-weight: 600;
+    font-family: Inter
+}
+
+.btn {
+    padding: 15px 36px !important
+}
+
+.btn-link {
+    padding: 0 !important;
+}
+
+.btn-sm {
+    font-size: 11px !important;
+    padding: 12px 29px !important;
+}
