@@ -2327,7 +2327,7 @@ body:not(.video-not-supported) .column-background .uncode-video-container.self-v
     table-layout: fixed;
     height: 100%;
     min-width: 100%;
-    width: auto;
+    /* width: auto; */
 }
 
 .safari5 .main-container .row-inner,
